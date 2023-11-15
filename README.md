@@ -13,7 +13,7 @@ $ rosrun rosserial_arduino make_libraries.py
 
 $ mkdir -p ~/catkin_ws/src
 
-$ git clone 
+$ git clone  
 
 $ cd catkin_ws
 
