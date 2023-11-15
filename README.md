@@ -1,6 +1,8 @@
 # ros_mpu6050_arduino
 Install Arduino IDE Latest Version
+
 $ sudo apt-get update
+
 $ sudo apt-get install ros-noetic-rosserial-arduino
 $ sudo apt-get install ros-noedic-rosserial
 $ cd ~/Arduino/libraries
