@@ -11,11 +11,11 @@ $ cd ~/Arduino/libraries
 
 $ rosrun rosserial_arduino make_libraries.py
 
-$ mkdir -p ~/<work space>/src
+$ mkdir -p ~/catkin_ws/src
 
 $ git clone 
 
-$ cd <work space>
+$ cd catkin_ws
 
 $ catkin_make
 
