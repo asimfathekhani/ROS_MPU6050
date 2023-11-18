@@ -1,6 +1,7 @@
 # ros_mpu6050_arduino
 ## Install Arduino IDE Latest Version 
- download Arduino IDE 2 appimage file from [https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_Linux_64bit.AppImage?_gl=1*1f4iy9f*_ga*NDM5OTIwMzQzLjE2OTk3NTk1MzM.*_ga_NEXN8H46L5*MTcwMDMxMjA3NC4xMS4wLjE3MDAzMTIwNzQuMC4wLjA.] Then right click on the downloaded file / properties / permissions  select allow executing file system.
+ download Arduino IDE 2 appimage file from [https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_Linux_64bit.AppImage?_gl=1*1f4iy9f*_ga*NDM5OTIwMzQzLjE2OTk3NTk1MzM.*_ga_NEXN8H46L5*MTcwMDMxMjA3NC4xMS4wLjE3MDAzMTIwNzQuMC4wLjA.] 
+ Then right click on the downloaded file / properties / permissions  select allow executing file system.
  
 ## Dependency for arduino
   ```
