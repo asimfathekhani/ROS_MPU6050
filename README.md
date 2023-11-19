@@ -36,7 +36,7 @@ gedit ~/.bashrc
 and paste ```source ~/< work_space >/devel/setup.bash``` at the last line
 ## Arduino code
 Connect Your Arduino with mpu6050 board to your PC And upload the code given in this repository.
-Download Mpu6050 lib by 
+Download Mpu6050 lib by Electronicscat (https://github.com/ElectronicCats/mpu6050)
 ```
 sudo ls -l /dev/ttyACM* 
 sudo chmod 777 /dev/ttyACM0
