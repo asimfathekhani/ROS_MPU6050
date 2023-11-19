@@ -25,6 +25,7 @@ cd ~/<work space>/src
 git clone https://github.com/Saifali4604/ros_mpu6050_arduino
 ```
 Open your <work_space>/src/ros_mpu6050_arduino/ and copy "ros.h" and "Arduinohardware.h" and paste it in Arduino/libraries/ros_lib/
+
 [delete the previous file in that location]
 now open new terminal 
 ```
@@ -33,6 +34,8 @@ catkin_make
 gedit ~/.bashrc
 ```
 and paste ```source ~/< work_space >/devel/setup.bash``` at the last line
+## Arduino code
+Connect Your Arduino with mpu6050 board to your PC And upload the code given in this repository
 ```
 sudo ls -l /dev/ttyACM* 
 sudo chmod 777 /dev/ttyACM0
@@ -42,6 +45,7 @@ or
 ls -l /dev |grep ttyUSB
 sudo chmod 777 /dev/ttyUSB0
 ```
+**Note:** Do not use Serial.begin or serial.print in the code
 
 ## Run the package
 1. Start the ROS master
