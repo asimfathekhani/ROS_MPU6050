@@ -27,7 +27,7 @@ cd ..
 catkin_make
 gedit ~/.bashrc
 ```
-and paste [source ~/ < work_space >/devel/setup.bash] at the last line
+and paste [source ~/< work_space >/devel/setup.bash] at the last line
 ```
 sudo ls -l /dev/ttyACM* 
 sudo chmod 777 /dev/ttyACM0
